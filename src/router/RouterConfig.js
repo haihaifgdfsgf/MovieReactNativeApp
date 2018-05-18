@@ -5,7 +5,9 @@ const RouterConfig = StackNavigator({
     Home: {
         screen: MainTabPage,
         navigationOptions:{
-            headerStyle: {height: 0},
+            headerStyle: {height: 0,backgroundColor:'#FFBB00'},
+            headerTitleStyle:{textAlign:'center',backgroundColor:'red',flex:1,fontSize:14},
+            headerTitle:"热映榜",
         }
     },
 

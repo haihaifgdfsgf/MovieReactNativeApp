@@ -66,9 +66,9 @@ const MyTab = TabNavigator({
             showIcon: true,//是否显示图标，默认关闭
             showLabel: true,//是否显示label，默认开启
             activeTintColor: 'red',//label和icon的前景色 活跃状态下（选中）
-            inactiveTintColor: 'black',//label和icon的前景色 活跃状态下（未选中）
+            inactiveTintColor: 'white',//label和icon的前景色 活跃状态下（未选中）
             style: { //TabNavigator 的背景颜色
-                backgroundColor: 'white',
+                backgroundColor: '#FFBB00',
                 height: 45,
             },
             indicatorStyle: {//标签指示器的样式对象（选项卡底部的行）。安卓底部会多出一条线，可以将height设置为0来暂时解决这个问题

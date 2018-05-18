@@ -25,9 +25,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     listfooter: {
+        marginBottom:60,
         height: 40,
         alignItems: 'center',
-        justifyContent: 'flex-start'
+        justifyContent: 'center'
     },
     listfootertext:{
       fontSize:12,
